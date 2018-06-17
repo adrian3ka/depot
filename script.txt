@@ -1,0 +1,14 @@
+Starting
+bundle install --binstubs
+
+Chapter 6
+
+bin/rails generate scaffold Product \title:string description:text image_url:string price:decimal
+
+bin/rails db:migrate
+
+bin/rails db:seed
+
+bin/rails server
+
+Chapter 9
